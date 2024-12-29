@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вітаємо в нашому мобільному додатку!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnToApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти до API"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnToProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти до профілю"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
